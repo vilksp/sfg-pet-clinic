@@ -1,11 +1,11 @@
 package ksp.vilius.sfgpetclinic.services.map;
 
 import ksp.vilius.sfgpetclinic.model.Pet;
-import ksp.vilius.sfgpetclinic.services.CrudService;
+import ksp.vilius.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
@@ -19,7 +19,7 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements Crud
 
     @Override
     public Pet save(Pet object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
