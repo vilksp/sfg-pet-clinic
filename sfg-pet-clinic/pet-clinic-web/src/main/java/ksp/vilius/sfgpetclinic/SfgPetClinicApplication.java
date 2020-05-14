@@ -1,4 +1,4 @@
-package ksp.vilius.petclinic;
+package ksp.vilius.sfgpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
