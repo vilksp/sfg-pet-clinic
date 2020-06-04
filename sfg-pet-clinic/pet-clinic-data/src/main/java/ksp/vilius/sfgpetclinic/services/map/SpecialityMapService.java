@@ -2,10 +2,12 @@ package ksp.vilius.sfgpetclinic.services.map;
 
 import ksp.vilius.sfgpetclinic.model.Speciality;
 import ksp.vilius.sfgpetclinic.services.SpecialtiesService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 @Service
+@Profile({"default","map"})
 public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialtiesService {
     @Override
     public Set<Speciality> findAll() {
