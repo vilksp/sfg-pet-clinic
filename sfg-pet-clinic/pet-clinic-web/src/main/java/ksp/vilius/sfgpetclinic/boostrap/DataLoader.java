@@ -30,7 +30,7 @@ public class DataLoader implements CommandLineRunner {
 
         int count = petTypeService.findAll().size();
 
-        if(count == 0){
+        if (count == 0) {
             loadData();
         }
     }
@@ -67,6 +67,8 @@ public class DataLoader implements CommandLineRunner {
         owner1.setCity("miami");
         owner1.setTelephone("912383");
         ownerService.save(owner1);
+
+        Owner.builder().address("add");
 
         Pet mikesPet = new Pet();
         mikesPet.setPetType(savedDogType);
