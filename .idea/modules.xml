@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sfg-pet-clinic/pet-clinic-data/pet-clinic-data.iml" filepath="$PROJECT_DIR$/sfg-pet-clinic/pet-clinic-data/pet-clinic-data.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sfg-pet-clinic/pet-clinic-web/petclinicweb.iml" filepath="$PROJECT_DIR$/sfg-pet-clinic/pet-clinic-web/petclinicweb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sfg-pet-clinic/sfg-pet-clinic.iml" filepath="$PROJECT_DIR$/sfg-pet-clinic/sfg-pet-clinic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sfg-pet-clinic/sfg-pet-clinic (1).iml" filepath="$PROJECT_DIR$/sfg-pet-clinic/sfg-pet-clinic (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/sfg-pet-clinic/sfg-pet-clinic (2).iml" filepath="$PROJECT_DIR$/sfg-pet-clinic/sfg-pet-clinic (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/pet-clinic-data/pet-clinic-data.iml" filepath="$PROJECT_DIR$/pet-clinic-data/pet-clinic-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pet-clinic-web/pet-clinic-web.iml" filepath="$PROJECT_DIR$/pet-clinic-web/pet-clinic-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sfg-pet-clinic.iml" filepath="$PROJECT_DIR$/sfg-pet-clinic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sfg-pet-clinic (1).iml" filepath="$PROJECT_DIR$/sfg-pet-clinic (1).iml" />
     </modules>
   </component>
 </project>
